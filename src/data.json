@@ -1,0 +1,20 @@
+{
+   "Pizzalist":
+   [
+     {
+       "title": "Pizza Meat Lover",
+       "image": "../image/pizza/meatlover.jpg",
+       "alt": "Meat Lover Pizza"
+     },
+     {
+      "title": "Pizza Meat Hawaiian",
+      "image": "../image/pizza/hawaiian.jpg",
+      "alt": "Hawaiian Pizza"
+     },
+     {
+      "title": "Pizza Vegetable",
+      "image": "../image/pizza/Vegan.jpg",
+      "alt": "Vegan Pizza"
+     }
+   ]
+}
