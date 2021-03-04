@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 // CSS
 import "./CSS/navbar.css";
 // Sidebar
@@ -8,20 +8,58 @@ export default function Navbar() {
   return (
     <div className="nav-wrapper">
       <div className="nav-container">
-        <div className="nav-logo">PizzaLover</div>
-        <div className="space-between-empty"/>
+        <Link className="nav-logo" to="/">
+          PizzaLover
+        </Link>
+        <div className="space-between-empty" />
         <ul className="navigation">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              offset={50}
+              duration={500}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <NavLink to="/About">About</NavLink>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              offset={50}
+              duration={500}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <NavLink to="/Contact">Contact</NavLink>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              offset={50}
+              duration={500}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
+              Contact
+            </Link>
           </li>
           <li>
-            <NavLink to="/PizzaMaker">Create Your Pizza</NavLink>
+            <Link to="/PizzaMaker">Create Your Pizza</Link>
           </li>
         </ul>
       </div>

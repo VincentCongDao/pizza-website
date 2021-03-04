@@ -3,7 +3,7 @@ import { Background, Parallax } from "react-parallax";
 import "./Page.css";
 export default function About() {
   return (
-    <div className="About">
+    <div className="About" id="about">
       <div className="About-information">
         <Parallax
           bgImage="./Hero/Image/pizza-hero.jpg"
@@ -13,7 +13,10 @@ export default function About() {
           blur={5}
         >
           <Background className="parallax-bg">
-            <img src="https://images2.alphacoders.com/970/thumb-1920-97040.jpg" alt="PizzaParallax"/>
+            <img
+              src="https://images2.alphacoders.com/970/thumb-1920-97040.jpg"
+              alt="PizzaParallax"
+            />
           </Background>
           <div className="about-us">
             <div className="about-us-container">

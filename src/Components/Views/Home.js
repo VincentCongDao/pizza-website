@@ -7,10 +7,10 @@ import Pizzalist from "./Pizzalist";
 export default function Home() {
   return (
     <div>
-      <Hero />
-      <About />
-      <Pizzalist />
-      <Contact />
+      <Hero id="hero" />
+      <About id="about" />
+      <Pizzalist id="pizza" />
+      <Contact id="contact" />
     </div>
   );
 }

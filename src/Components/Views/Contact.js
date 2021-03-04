@@ -4,7 +4,7 @@ import contactImage from "./Hero/Image/pizza-contact.jpg";
 export default class Contact extends React.Component {
   render() {
     return (
-      <form className="contact-form">
+      <form className="contact-form" id="contact">
         <h1>Contact Us</h1>
         <div className="contact-wrapper">
           <div className="pizza-image">
