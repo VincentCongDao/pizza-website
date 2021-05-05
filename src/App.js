@@ -1,13 +1,10 @@
-import React from 'react'
-import RouteNav from './Components/Navbar/RouteNav';
-import "./App.css"
-import Home from './Components/Views/Home';
-
+import React from "react";
+import RouteNav from "./Components/Navbar/RouteNav";
+import "./App.css";
 function App() {
   return (
     <div className="App">
-      <RouteNav/>
-      <Home/>
+      <RouteNav />
     </div>
   );
 }

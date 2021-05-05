@@ -8,7 +8,7 @@ export default function Hero() {
       <img className="hero-image" src={Heroimage} alt="Pizza Background" />
       <div className="hero-information">
         <h3>PizzaLover</h3>
-        <p>uis magna excepteur aliquip eu culpa non proident do officia.</p>
+        <p>One Stop For Pizza</p>
       </div>
     </div>
   );

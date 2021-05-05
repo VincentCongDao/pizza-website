@@ -5,7 +5,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <form className="contact-form" id="contact">
-        <h1>Contact Us</h1>
+        <h3>Contact Us</h3>
         <div className="contact-wrapper">
           <div className="pizza-image">
             <img src={contactImage} alt="pizza" />

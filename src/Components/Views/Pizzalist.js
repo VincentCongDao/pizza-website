@@ -4,7 +4,7 @@ import "./Page.css";
 export default function Pizzalist() {
   return (
     <div className="pizzalist-wrapper">
-      <h1>Our Pizza</h1>
+      <h3>Our Pizza</h3>
       <div className="pizzalist">
         {data.Pizzalist.map((Pizzalist) => {
           return (
